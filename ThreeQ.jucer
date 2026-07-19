@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="z0XKzY" name="ThreeQ" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              companyName="Mikko Liivak" companyCopyright="Mikko Liivak"
+              bundleIdentifier="com.mikkoliivak.ThreeQ"
+              pluginManufacturer="Mikko Liivak" pluginManufacturerCode="Mkli"
+              pluginCode="Q3eq" pluginFormats="buildVST3,buildAU,buildStandalone"
+              pluginVST3Category="Fx,EQ" pluginAUMainType="'aufx'"
+              pluginName="ThreeQ" pluginDesc="A clear, musical 3-band equalizer"
+              version="1.0.0" pluginManufacturerEmail="">
   <MAINGROUP id="ZA1j15" name="ThreeQ">
     <GROUP id="{63817A10-34FB-7CAC-EE29-5E77CD636BDD}" name="Source">
       <FILE id="CXiRJT" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -37,19 +44,19 @@
         <CONFIGURATION isDebug="0" name="Release" targetName="ThreeQ"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
-        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Users/mikkoliivak/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="/Users/mikkoliivak/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
